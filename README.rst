@@ -1,4 +1,10 @@
 ================
+Django Modernizr3
+================
+Django Modernizr 3 is a Python3 compatible version of the django-modernizr app.
+
+
+================
 Django Modernizr
 ================
 

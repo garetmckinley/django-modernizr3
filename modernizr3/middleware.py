@@ -79,7 +79,7 @@ class ModernizrMiddleware(object):
             request.modernizr = None
 
     def add_modernizr(self, response):
-        modernizr_content = render_to_string('modernizr/add_modernizr.html', {
+        modernizr_content = render_to_string('modernizr3/add_modernizr.html', {
             'modernizr_js_url': settings.MODERNIZR_JS_URL,
             'modernizr_sentinel_img_url': settings.MODERNIZR_SENTINEL_IMAGE_URL,
         })

@@ -18,7 +18,7 @@ SECRET_KEY = '@vjdp36cgfz6xq^^&c9bb&-353uz^j1xy*avt*z@rpotf-i4vv'
 MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'modernizr.middleware.ModernizrMiddleware',
+    'modernizr3.middleware.ModernizrMiddleware',
 )
 ROOT_URLCONF = 'example_project.urls'
 TEMPLATE_DIRS = (
@@ -29,5 +29,5 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 INSTALLED_APPS = (
     'django.contrib.sessions',
-    'modernizr',
+    'modernizr3',
 )

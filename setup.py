@@ -3,12 +3,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='django-modernizr',
-    version='.'.join(map(str, __import__('modernizr').__version__)),
-    author='David Gouldin',
-    author_email='david@gould.in',
-    url='http://github.com/dgouldin/django-modernizr',
-    description = 'Django port of Marshall Yount\'s rack-modernizr',
+    name='django-modernizr3',
+    version='.'.join(map(str, __import__('modernizr3').__version__)),
+    author='Garet McKinley',
+    author_email='garetmckinley@me.com',
+    url='https://github.com/mediachicken/django-modernizr3',
+    description='Python 3 port of David Gouldin\'s Django Modernizr',
     packages=find_packages(),
     zip_safe=False,
     install_requires=[],

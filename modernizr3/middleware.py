@@ -12,7 +12,7 @@ from django.template.loader import render_to_string
 from django.utils.encoding import smart_text
 from django.utils.http import cookie_date
 
-from modernizr.settings import contribute_to_settings
+from modernizr3.settings import contribute_to_settings
 
 # Default settings needed by ModernizrMiddleware
 contribute_to_settings({
